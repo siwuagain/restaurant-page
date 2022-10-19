@@ -1,0 +1,54 @@
+.menutext {
+  font-size: 2rem;
+}
+
+.menucontainer > h2 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+
+.menucontainer {
+  align-items: center;
+}
+
+.itemcontainer {
+  align-items: center;
+  
+}
+
+.itemimg {
+  width: 350px;
+  height: 350px;
+  border: 10px rgb(207, 207, 207) solid;
+  display: inline-block;
+}
+
+.itemtext {
+  height: 350px;
+  font-size: 1.8rem;
+  display: inline-block;
+  width: 500px;
+  vertical-align: middle;
+  flex: 1;
+  padding: 30px;
+}
+
+.itemtitle{
+  text-decoration: underline;
+}
+
+.itemcontainer {
+  display: flex;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.itemcontainer:nth-child(even) {
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+.itemcontainer:nth-child(odd) {
+  flex-direction: row;
+  text-align: right;
+}

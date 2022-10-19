@@ -1,0 +1,45 @@
+.homecontainer {
+  margin-right: 400px;
+  margin-left: 400px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.introtext {
+  text-align: left;
+  font-size: 1.8rem;
+  line-height: 40px;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.introimg{
+  display: inline-block;
+  border-radius: 35px;
+}
+.openhours {
+  font-size: 2rem;
+}
+
+.openhours span {
+  color: rgb(179, 10, 10);
+}
+
+.openhours span:first-of-type{
+  color: black;
+  text-decoration: underline;
+  line-height: 40px;
+}
+
+.location {
+  font-size: 2rem;
+}
+
+.location span{
+  text-decoration: underline;
+  line-height: 40px;
+}

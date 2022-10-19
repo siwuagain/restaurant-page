@@ -1,43 +1,41 @@
-
 function aboutus() {
+  const aboutuscontainer = document.createElement('div');
+  aboutuscontainer.classList.add('aboutuscontainer')
+  aboutuscontainer.innerHTML = `
+      <h2>About Us</h2>
 
-  const container = document.createElement('div');
+      <div class="team-member" id="owner">
+        <p>
+          SpongeBob Squarepants, award-winning chef and jellyfish-lover, 
+          decided to open The BouG Resto after countless years of preparation and effort. 
+          With the help of his mentor, John Cena, Mr. SquarePants has been running the restaurant 
+          ever since its opening.<br>
+          <br>
+          Contact: imreadyimready@pineapple.com
+        <p>
+        <img class="team-member-img" id="owner-image" src="images/spongebob.png">
+      </div>
 
-  const aboutustitle = document.createTextNode('About Us');
+      <div class="team-member" id="headchef">
+        <p>
+          Snoop Dogg, current headchef and co-owner of the business, just completing side quests. <br>
+          <br>
+          Contact: itsthaDOdoubleG@yahoo.com
+        <p>
+        <img class="team-member-img" id="headchef-image" src="images/snoopdogg.png">
+      </div>
 
-  const owner = document.createElement('div');
-  owner.classList.add('owner');
-
-  const ownertext = document.createTextNode('SpongeBob Squarepants, award-winning chef and jellyfish-lover, decided to open The BouG Resto after countless years of preparation and effort. With the help of his mentor, John Cena, Mr. SquarePants has been running the restaurant ever since its opening. \n Contact: imreadyimready@pineapple.com');
-  owner.appendChild(ownertext);
-
-  const ownerimage = document.createElement('img');
-  ownerimage.src = "images/spongebob.png";
-  owner.appendChild(ownerimage);
-
-  const headchef = document.createElement('div'); 
-  headchef.classList.add('headchef');
-
-  const headchefimage = document.createElement('img');
-  headchefimage.src = "images/snoopdogg.png";
-  headchef.appendChild(headchefimage);
-
-  const headcheftext = document.createTextNode('Snoop Dogg, current headchef and co-owner of the business, just completing side quests. \n Contact: itsthaDOdoubleG@yahoo.com');
-  headchef.appendChild(headcheftext);
-
-  const others = document.createElement('div');
-  others.classList.add('others');
-
-  const othersimage = document.createElement('img');
-  othersimage.src = "images/staff.png";
-  others.appendChild(othersimage);
-
-  const otherstext = document.createTextNode('Our team is full of experienced veterans and aspiring newcomers ready to welcome you with warm smiles and great service. \n Contact: thebouGresto@thebouGresto.com \n 1800-123-1412314');
-  others.appendChild(otherstext)
-
-  container.append(aboutustitle, owner, headchef, others);
-
-  return container;
+      <div class="team-member" id="staff">
+        <p>
+          Our team is full of experienced veterans and aspiring newcomers 
+          ready to welcome you with warm smiles and great service. <br>
+          <br>
+          Contact: thebouGresto@thebouGresto.com \n 1800-123-1412314
+        <p>
+        <img class="team-member-img" id="staff-image" src="images/staff.png">
+      </div>
+  `
+  return aboutuscontainer;
 } 
 
 export default aboutus;

@@ -1,7 +1,7 @@
 import home from './home';
 import aboutus from './aboutus';
 import menu from './menu';
-import './styles/index.css'
+import './styles/general.css'
 import './styles/aboutus.css'
 import './styles/home.css'
 import './styles/menu.css'
@@ -32,7 +32,7 @@ function display() {
 
   const btnarray = [homebtn, menubtn, aboutusbtn];
 
-  changePageDisplay(homebtn);
+  changePageDisplay(aboutusbtn);
 
   btnarray.forEach((btn => {
     btn.classList.add('btn')

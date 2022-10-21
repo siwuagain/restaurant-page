@@ -1,24 +1,25 @@
-.homecontainer {
-  margin-right: 400px;
-  margin-left: 400px;
-}
 
 .intro {
   display: flex;
   flex-direction: row;
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 .introtext {
   text-align: left;
   font-size: 1.8rem;
   line-height: 40px;
-  display: inline-block;
   margin-left: 10px;
+  width: 800px;
+}
+
+figure {
+  width: fit-content;
+  height: fit-content;
 }
 
 .introimg{
-  display: inline-block;
   border-radius: 35px;
 }
 .openhours {
@@ -42,4 +43,24 @@
 .location span{
   text-decoration: underline;
   line-height: 40px;
+}
+
+
+@media (max-width: 1030px){
+
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .introtext {
+    font-size: 1.6rem;
+    width: 100%;
+  }
+
+  .introimg {
+    width: 100%;
+    height: 100%;
+  }
+  
 }

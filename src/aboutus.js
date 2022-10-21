@@ -12,7 +12,7 @@ function aboutus() {
           ever since its opening.<br>
           <br>
           Contact: imreadyimready@pineapple.com
-        <p>
+        </p>
         <img class="team-member-img" id="owner-image" src="images/spongebob.png">
       </div>
 
@@ -21,7 +21,7 @@ function aboutus() {
           Snoop Dogg, current headchef and co-owner of the business, just completing side quests. <br>
           <br>
           Contact: itsthaDOdoubleG@yahoo.com
-        <p>
+        </p>
         <img class="team-member-img" id="headchef-image" src="images/snoopdogg.png">
       </div>
 
@@ -30,8 +30,8 @@ function aboutus() {
           Our team is full of experienced veterans and aspiring newcomers 
           ready to welcome you with warm smiles and great service. <br>
           <br>
-          Contact: thebouGresto@thebouGresto.com \n 1800-123-1412314
-        <p>
+          Contact: thebouGresto@thebouGresto.com <br> tel. 1800-123-1412314
+        </p>
         <img class="team-member-img" id="staff-image" src="images/staff.png">
       </div>
   `
